@@ -1,0 +1,138 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap");
+
+/* common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+  font-family: "Jost", sans-serif;
+  border: 2px solid red;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  padding: 30px 0 80px;
+  position: relative;
+}
+.banner-title {
+  position: absolute;
+  top: 130px;
+  left: 120px;
+  color: #fff;
+  font-size: 70px;
+  line-height: 80px;
+}
+.banner-title span {
+  background-color: #790ee7;
+  margin-top: 15px;
+  display: inline-block;
+}
+.banner {
+  text-align: right;
+}
+header hr {
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+  opacity: 0.3;
+  width: 80%;
+  margin: 16px auto 180px;
+}
+.header-second-part {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  column-gap: 60px;
+}
+.subtitle-container {
+  width: 45%;
+}
+.text-container {
+  width: 55%;
+}
+.banner-subTitle {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 600;
+}
+.gradient-part1 {
+  background: linear-gradient(to right, #fff 0%, #a557f3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient-part2 {
+  background: linear-gradient(to right, #fff 0%, #ab67ef 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.arrow-container {
+  text-align: right;
+}
+.arrow-container img {
+  width: 70%;
+  margin-top: 30px;
+}
+.gradient-border {
+  padding-left: 30px;
+  border-left: 5px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(#850dff -20.86%, #f1a0ff 116.75%);
+  margin-bottom: 50px;
+}
+.gradient-border p {
+  color: #fff;
+  font-size: 22px;
+}
+/*============ hub model ==============*/
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding: 120px 0;
+  align-items: center;
+  column-gap: 110px;
+}
+.small-title {
+  color: #626262;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.text {
+  font-size: 20px;
+  color: #626262;
+  text-align: justify;
+}
+
+.hub-model-section img {
+  width: 550px;
+}
+.hub-model-section button {
+  padding: 15px 30px;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px solid #b1b1b1;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.hub-model-section button span {
+  border: 1px solid;
+  padding: 3px 5px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.hub-model-section button:hover {
+  background-color: #850dff;
+  color: #ffffff;
+}
