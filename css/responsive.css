@@ -6,16 +6,14 @@
     right: 30px;
     font-size: 50px;
     line-height: 50px;
-    background-color: #19082a;
     padding: 15px;
   }
-  .banner-title span{
-    background-color: #330E58;
+  
+  .header-first-part {
+    height: 400px;
+    background-image:none;
   }
- 
-  .banner img {
-    width: 100%;
-  }
+
   header hr {
     margin: 16px auto 50px;
   }
@@ -57,22 +55,28 @@
     margin: 50px 0;
     padding: 0 ;
   }
+  .card{
+    padding: 40px 30px 50px;
+  }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .banner-title {
-    top: 110px;
+    top: 90px;
     left: 50px;
     font-size: 60px;
     line-height: 60px;
-    background-color: #19082a;
-    padding: 15px;
-  }
-  .banner-title span{
-    background-color: #330E58;
-  }
-  .banner img {
-    width: 100%;
     
+  }
+  .header-first-part {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:top right;
+  }
+  header hr {
+   margin-top: -50px;
+   margin-bottom: 80px;
+   
   }
   
   .header-second-part {
@@ -89,6 +93,7 @@
   .text-container {
     margin-top: 50px;
   }
+
   /*============ hub model ==============*/
   .container {
     width: 100%;
@@ -120,12 +125,18 @@
     top: 110px;
     left: 50px;
     font-size: 60px;
-    line-height: 60px;
-    
+    line-height: 60px; 
   }
-
-  .banner img {
-    width: 100%;
+  .header-first-part {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:right;
+  }
+  header hr {
+   margin-top: -50px;
+   margin-bottom: 80px;
+   
   }
 
   .header-second-part {
@@ -167,7 +178,59 @@
     padding: 0 ;
   }
 }
-@media only screen and (min-width: 1025px) and (max-width: 1360px) {
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .banner-title {
+    top: 110px;
+    left: 50px;
+    font-size: 60px;
+    line-height: 60px; 
+  }
+  header hr {
+   margin-top: -50px;
+   margin-bottom: 80px;
+   
+  }
+
+  .header-second-part {
+    flex-direction: column;
+  }
+  .banner-subTitle br{
+    display: none;
+  }
+  .subtitle-container,
+  .text-container {
+    width: 100%;
+  }
+  .text-container {
+    margin-top: 50px;
+  }
+  /*============ hub model ==============*/
+  .container {
+    width: 100%;
+    flex-direction: column-reverse;
+    padding: 80px 50px;
+  }
+  .hub-model-section img {
+    width: 100%;
+    margin: 30px 0;
+  }
+  /*=========== core-focus-section ===============*/
+  .core-focus-section {
+    flex-direction: column;
+    padding: 50px;
+  }
+  .info-container {
+    position: static;
+    height: auto;
+    padding-left: 0px;
+    padding: 50px 0;
+  }
+  .cards-container {
+    margin: 50px 0;
+    padding: 0 ;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1360px) {
   
   .banner-title {
     left: 100px;

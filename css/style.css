@@ -23,6 +23,13 @@ header {
   background-color: #000;
   position: relative;
 }
+.header-first-part {
+  height: 600px;
+  background-image: url(https://medidigi.addictivemedialabs.agency/wp-content/themes/medial-digital/img/service-img.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+}
 .banner-title {
   position: absolute;
   top: 130px;
@@ -39,9 +46,8 @@ header {
 .banner {
   text-align: right;
 }
-.banner img{
-  background:linear-gradient(to right,black, #17022c);
-  
+.banner img {
+  background: linear-gradient(to right, black, #17022c);
 }
 header hr {
   border: none;
@@ -161,7 +167,7 @@ header hr {
   padding-left: 60px;
 }
 
-.info-container img{
+.info-container img {
   width: 220px;
 }
 .info-container h1 {
@@ -222,9 +228,8 @@ header hr {
 }
 
 /* ==================== */
-.blank{
+.blank {
   width: 100%;
   height: 500px;
   background: #fff;
 }
-
