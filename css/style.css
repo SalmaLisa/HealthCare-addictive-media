@@ -154,7 +154,8 @@ header hr {
 }
 .info-container {
   padding: 100px 0;
-  height: 100vh;
+  min-height: 100vh;
+  height: 900px;
   position: sticky;
   top: 0;
   padding-left: 60px;
