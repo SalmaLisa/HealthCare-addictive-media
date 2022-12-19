@@ -74,10 +74,14 @@
     width: 100%;
     
   }
-
+  
   .header-second-part {
     flex-direction: column;
   }
+  .banner-subTitle br{
+    display: none;
+  }
+
   .subtitle-container,
   .text-container {
     width: 100%;
@@ -127,6 +131,9 @@
   .header-second-part {
     flex-direction: column;
   }
+  .banner-subTitle br{
+    display: none;
+  }
   .subtitle-container,
   .text-container {
     width: 100%;
@@ -172,6 +179,7 @@
   .header-second-part {
     width: 85%;
   }
+  
   .subtitle-container {
     width: 50%;
   }
