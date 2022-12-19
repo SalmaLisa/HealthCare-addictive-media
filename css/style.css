@@ -1,5 +1,6 @@
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 
 /* common CSS */
 * {
@@ -7,18 +8,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+li {
+  list-style: none;
+}
 body {
   width: 100%;
   max-width: 1600px;
   margin: auto;
   font-family: "Jost", sans-serif;
-  border: 2px solid red;
 }
 
 /* Header */
 header {
   background-color: #000;
-  padding: 30px 0 80px;
   position: relative;
 }
 .banner-title {
@@ -36,6 +38,10 @@ header {
 }
 .banner {
   text-align: right;
+}
+.banner img{
+  background:linear-gradient(to right,black, #17022c);
+  
 }
 header hr {
   border: none;
@@ -84,8 +90,6 @@ header hr {
   border-image-slice: 1;
   border-image-source: linear-gradient(#850dff -20.86%, #f1a0ff 116.75%);
   margin-bottom: 50px;
-}
-.gradient-border p {
   color: #fff;
   font-size: 22px;
 }
@@ -111,6 +115,7 @@ header hr {
 }
 .text {
   font-size: 20px;
+  line-height: 30px;
   color: #626262;
   text-align: justify;
 }
@@ -126,7 +131,7 @@ header hr {
   font-size: 20px;
   margin-top: 40px;
 }
-.hub-model-section button span {
+.arrow-icon {
   border: 1px solid;
   padding: 3px 5px;
   border-radius: 50%;
@@ -136,3 +141,87 @@ header hr {
   background-color: #850dff;
   color: #ffffff;
 }
+/*=========== core-focus-sction ===============*/
+.core-focus-section {
+  display: flex;
+  column-gap: 60px;
+  background-color: #000;
+  padding: 0 100px;
+}
+.info-container,
+.cards-container {
+  flex: 1;
+}
+.info-container {
+  padding: 100px 0;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  padding-left: 60px;
+}
+
+.info-container img{
+  width: 220px;
+}
+.info-container h1 {
+  color: #fff;
+  font-size: 50px;
+  margin-top: 10px;
+}
+.info-container h1 span {
+  background: linear-gradient(to right, #a557f3, #f1a0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.info-container p {
+  color: #8b8b8b;
+  font-size: 22px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.info-container > span {
+  color: #fff;
+  padding: 7px 15px;
+  margin-top: 50px;
+  margin-left: -5px;
+  display: inline-block;
+  font-size: 22px;
+}
+
+.cards-container {
+  margin: 100px 0;
+  padding: 0 50px;
+}
+.card {
+  background-color: #fff;
+  padding: 40px 60px 50px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.card .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .header h1 {
+  color: white;
+  font-size: 80px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #8c8c8c;
+  font-family: "Oswald", sans-serif;
+}
+.card .title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.card .text {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+/* .blank {
+  height: 100vw;
+  background-color: red;
+} */
+/* ================ */
